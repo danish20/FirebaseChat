@@ -1,0 +1,116 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#646b3da8"
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/roundedbg1"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/header"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:padding="2dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rishabhdp"
+                android:scaleType="centerCrop"
+                android:onClick="flip_it"
+                android:background="@drawable/my_button"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Rishabh Arora"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="flip_it"
+                    android:padding="2dp"
+                    android:textColor="#663399"
+                    android:id="@+id/rishabh_bt"
+                    android:background="@android:color/transparent" />
+
+                <com.facebook.share.widget.LikeView
+                    android:layout_width="100dp"
+                    android:layout_height="28dp"
+                    android:id="@+id/like_view"
+                    android:layout_marginTop="3dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/my_button"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:\n\nSCF 56 Kabir Park Market \n\nOpposite Guru Nanak Dev University\n\nAmritsar, Punjab\n\nPhone: 9888870560\n\nE-Mail: rishabh.arora.90@gmail.com"
+                android:id="@+id/address"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textSize="16sp"
+                android:text="Click Here to Know more about GREKEY"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:id="@+id/about"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

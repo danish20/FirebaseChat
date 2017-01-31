@@ -1,0 +1,80 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#646b3da8"
+    android:padding="16dp"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:textAppearanceLarge"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Rishabh Arora"
+        android:textColor="#663399"
+        />
+    </LinearLayout>
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/my_button"
+        android:gravity="center"
+        >-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/my_button"
+            android:gravity="center"
+            android:padding="1dp"
+            >
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image2"
+                >
+    <TextView
+        style="?android:textAppearanceSmall"
+        android:padding="5dp"
+        android:textColor="#fffff6fe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A computer science engineer who was given the sobriquet ‘Scientist’ by his schoolmates owing to his penchant for going in depth of every concept.In his School he was a typical Nerd, he just loved learning and his love for learning was so great that he never missed school. His school awarded with a silver medal for a unique achievement- Holding full Attendance for Four Consecutive years. He holds Leonardo Da Vinci as his role model for learning and believes in the Ideal of Renaissance Man. His area of Interest are as varying as Applications of Augmented Reality in Education, Web Usability, Political Philosophy, Military Strategy, Entrepreneurship, Consumer Psychology and Paintings. He never stops and keeps learning new things everyday. He recently completed a Certificate program in Entrepreneurship from Massachusetts Institute of Technology.     \nBeing a storehouse of knowledge and a critical thinker makes him a great trainer for Verbal Ability. An analytical mind and a knack for numbers makes him the perfect mentor for quantitative aptitude. His Team stood Second in an all India conference for Aptitude Trainers. He was given a Cash prize for the same and guess what he did with the cash reward he received --  bought scores  of books on subjects ranging from philosophy to game theory for his personal library.     It is a long standing debate whether he makes a better trainer of quantitative aptitude or that of verbal ability. He believes, “If a faculty cannot master both, how can we expect students to do the same.He was one of the Top scorers of Verbal Section in XAT and was the all India Topper in Quant Section of CMAT (Yes He scored 100/100 in Quant section).He had a promising career lay ahead of him but he chose to teach instead driven by his passion for learning. "
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:id="@+id/bhoru"
+        android:elevation="16dp"
+        android:focusable="true" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+<!--</LinearLayout>-->
